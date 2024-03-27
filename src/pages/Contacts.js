@@ -76,15 +76,15 @@ function Contacts() {
             <div className="max-w-full  sm:82 rounded-lg  sm:items-center sm:justify-center  md:ml-48 mt-8">
 
                   <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                    <a href="tel:0116 221 3539"><div className="  sm:items-center sm:justify-center   mt-5 mb-5">
+                    <a href="tel:+447940456267"><div className="  sm:items-center sm:justify-center   mt-5 mb-5">
                        <FaMobileScreenButton className="sm:items-center sm:justify-center  my-6"/>
                     </div></a>
                   </IconContext.Provider>
                   <div className="  sm:items-center sm:justify-center   mt-1">
                     <p className=" text-1xl font-normal">
-                    <div><span className="text-black text-2xl font-bold"><a href="tel:0116 221 3539" 
+                    <div><span className="text-black text-2xl font-bold"><a href="tel:+447940456267" 
                     className="block py-2  underline text-link rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
-                    0116 221 3539
+                    +44 7940 456 267
                     </p>
                   </div>
 
