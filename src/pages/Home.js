@@ -59,7 +59,7 @@ function Home() {
   Back to Top
 </button> */}
 </div>
-<p className="flex items-center justify-center p-16 text-2xl bg-gray-100">
+<p className="flex items-center justify-center p-16 text-lg lg:text-2xl bg-gray-100">
     At Khaya, we provide a nurturing pathway to overcome adversity. We believe that the heart of this starts with
      relationships, in order to build growth, trust and development in all the young people we are fortunate enough
       to care for and educate.

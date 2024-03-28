@@ -1,5 +1,5 @@
 import React from 'react'
-import society from '../images/society.gif'
+import society from '../images/collaboration.gif'
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText  } from 'react-icons/fa6';
 
