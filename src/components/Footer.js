@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/ortu_png.png';
+/* import logo from '../images/ortu_png.png'; */
 import social from '../images/social-care-network-logo.png.webp';
 import careskills from '../images/careskills-academy-logo.png.webp';
 import elsa from '../images/elsa-logo.png.webp';
@@ -16,7 +16,7 @@ function Footer() {
 
             <div className="sm:flex sm:items-center sm:justify-between">
                 <a href="/" rel="noreferrer" className="flex items-center mb-4 sm:mb-0">
-                    <img src={logo}className="h-16 md:h-24 mr-3" alt="Khaya Logo" />
+                    <img /* src={logo} */className="h-16 md:h-24 mr-3" alt="Khaya Logo" />
                 </a>
 
                 <a href="https://careskillsacademy.co.uk/" rel="noreferrer" className="flex items-center mb-4 sm:mb-0">
@@ -42,7 +42,7 @@ function Footer() {
             </div>
 
             <div className="sm:flex sm:items-center sm:justify-center mx-12 mt-5">
-                <ul className=" mt-8 mx-8 flex flex-wrap items-center mb-6 text-lg md:text-xl font-medium text-gray-300 sm:mb-0 dark:text-white">
+                <ul className=" mt-8 mx-8 flex flex-wrap items-center mb-6 text-lg md:text-lg font-medium text-gray-500 sm:mb-0 dark:text-white">
                     <li>
                         <a href="/about" rel="noreferrer" className="mr-4 hover:underline md:mr-6 md:font-large">About</a>
                     </li>

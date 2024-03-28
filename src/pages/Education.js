@@ -19,7 +19,7 @@ function Education() {
       <div className="sm:flex sm:items-center sm:justify-center mx-12 mt-0">
         <div>
     <div className="text-center font-bold py-4 text-2xl md:text-3xl">
-    <p className="relative inline-block pb-3">
+    <p className="relative text-green inline-block pb-3">
     Alternative provisions
         <span className="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>
@@ -45,13 +45,13 @@ function Education() {
 
 
   <div className="text-center font-bold py-4 text-xl md:text-3xl">
-    <p className="relative inline-block pb-3">
+    <p className="relative text-green inline-block pb-3">
         Independence
         <span className="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>
 </div>
 
-<div className="flex lg:pr-96 sm:pr-16">
+<div className="flex lg:px-auto justify-items-center sm:pr-16">
       <img src={road} alt="route icon" className="w-24 h-24"></img>
       <p className='text-base'>
         <span className='pb-8  font-semibold text-lg'>ROUTE 1 for Independent skills</span> <br/>
@@ -75,7 +75,7 @@ function Education() {
 </div>
 
 </div>
-<div className="flex items-center justify-center mt-2 h-96 w-full bg-black overflow-hidden">
+<div className="flex items-center justify-center mt-2 h-full w-full bg-black overflow-hidden">
       <div className="relative w-full h-96 ">
         <video className="absolute top-0 left-0 w-full h-full object-cover opacity-40" autoPlay loop muted>
           <source src={schoolkids} type="video/mp4" />
@@ -98,7 +98,7 @@ function Education() {
       {/* special services */}
     <div>
     <div className="text-center font-bold py-4 text-2xl md:text-3xl">
-          <p className="relative inline-block pb-3">
+          <p className="relative text-green inline-block pb-3">
           What we offer
               <span className="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
           </p>
@@ -170,7 +170,7 @@ function Education() {
 
 {/* Independence Skills Routes */}
 <div className="text-center font-semibold pb-4 pt-0 md:text-3xl text-2xl">
-    <p className="relative inline-block pb-3">
+    <p className="relative text-green inline-block pb-3">
         Independence Skills Routes
         <span className="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>
@@ -179,7 +179,7 @@ function Education() {
 
 {/* Residential provision 16+ - provision */}
 <div className="md:text-center font-semibold py-4 md:text-3xl text-2xl">
-    <p className="relative inline-block pb-3">
+    <p className="relative text-green inline-block pb-3">
     Residential provision 16+ - provision
         <span className="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
     </p>

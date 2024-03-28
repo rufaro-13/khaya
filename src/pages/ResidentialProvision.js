@@ -11,7 +11,7 @@ function ResidentialProvision() {
             <div className="md:w-1/2  sm:82 rounded-lg  sm:items-center sm:justify-center mx-1  md:mx-4 mt-8">
 
                 <div className="sm:flex sm:items-center sm:justify-center md:mx-6 mx-1 mt-5">
-                <span className="text-black text-2xl md:text-3xl font-bold underline decoration-pinktheme ">Our Home Residential Care Provision<br/><br/></span>
+                <span className="text-green text-2xl md:text-3xl font-bold underline decoration-pinktheme ">Our Home Residential Care Provision<br/><br/></span>
                 
                 </div>
 
@@ -58,7 +58,7 @@ function ResidentialProvision() {
             
 
             <div className="sm:flex sm:items-center mx-1 md:mx-6 mt-5">
-            <span className="text-black text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Specialist Services and Care for Children (under 16)<br/><br/></span>
+            <span className="text-green text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Specialist Services and Care for Children (under 16)<br/><br/></span>
             
             </div>
 
@@ -99,7 +99,7 @@ function ResidentialProvision() {
             
 
                 <div className="sm:flex sm:items-center mx-1 md:mx-6 mt-5">
-                <span className="text-black text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Residential provision 16+ - provision<br/><br/></span>
+                <span className="text-green text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Residential provision 16+ - provision<br/><br/></span>
                 
                 </div>
 
@@ -127,7 +127,7 @@ function ResidentialProvision() {
             
 
                 <div className="sm:flex sm:items-center  mx-1 md:mx-6 mt-5">
-                <span className="text-black text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Careers vocational<br/><br/></span>
+                <span className="text-green text-2xl lg:text-3xl font-bold underline decoration-pinktheme ">Careers vocational<br/><br/></span>
                 
                 </div>
 
@@ -208,7 +208,7 @@ function ResidentialProvision() {
 
         <div className=" sm:items-center sm:justify-center mx-1 md:mx-6 mt-10 md:pr-8">    
           <div className="sm:flex sm:items-center mx-1 md:mx-6 mt-5">
-            <span className="text-black text-2xl md:text-3xl font-bold underline decoration-pinktheme ">Our Care Programme<br/><br/></span>
+            <span className="text-green text-2xl md:text-3xl font-bold underline decoration-pinktheme ">Our Care Programme<br/><br/></span>
           
           </div>
 

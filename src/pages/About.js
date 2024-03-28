@@ -11,7 +11,7 @@ function About() {
   return (
     <div className="md:container md:mr-16 md:ml-16 pt-2">
         <div className="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
-        <marquee className="font-cursive text-3xl font-semibold pt-8 text-purple-600"> <p className="text-2xl">{/* <span className="text-3xl text-pinktheme ">Khaya </span> */}
+        <marquee className="font-cursive text-3xl font-semibold pt-8 text-olive"> <p className="text-2xl">{/* <span className="text-3xl text-pinktheme ">Khaya </span> */}
             Unconditional love, safety,good health and education is our foundation.</p></marquee>
             <br/>
             
@@ -27,7 +27,7 @@ function About() {
         </div><br/>
 
         <div className="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-            <span className="text-black text-2xl font-bold">Statement of Purpose</span>
+            <span className="text-green text-2xl font-bold">Statement of Purpose</span>
             
         </div>
         <div className=" sm:items-center sm:justify-center mx-6 mt-5">
@@ -92,7 +92,7 @@ function About() {
             <div className=" sm:82 rounded-lg  sm:items-center sm:justify-center bg-slate-200  mx-4 mt-8">
 
                 <div className="flex sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-                <span className="text-black lg:text-3xl text-1xl font-bold underline decoration-pinktheme mt-2">The Khaya Team <br/><br/></span>
+                <span className="text-green lg:text-3xl text-1xl font-bold underline decoration-pinktheme mt-2">The Khaya Team <br/><br/></span>
                 <img src={team}className="lg:h-12 h-8 lg:ml-2 mt-2 " alt=""/>
                 </div>
 

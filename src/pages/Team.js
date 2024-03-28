@@ -8,14 +8,14 @@ function Team() {
   return (
     <div className="md:container md:auto mt-2">
         <div className="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-            <span className="text-black text-3xl md:text-3xl lg:text-4xl font-bold">Khaya Team</span>
+            <span className="text-green text-3xl md:text-3xl lg:text-4xl font-bold">Khaya Team</span>
             <img src={society} alt="route icon" className="w-24 h-20"></img>
         </div>
 
         <div className=" sm:items-center sm:justify-center border rounded-lg bg-gray-100 mx-6 mt-2 ">
 
             <div className="sm:flex sm:items-center sm:justify-center mx-6 mt-5">
-                <span className="text-black text-xl md:text-2xl lg:text-3xl font-bold">Meet our founding directors</span>
+                <span className="text-green text-xl md:text-2xl lg:text-3xl font-bold">Meet our founding directors</span>
                 
             </div>
 
