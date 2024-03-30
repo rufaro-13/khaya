@@ -3,7 +3,7 @@ import React from 'react'
 import road from "../images/route.gif"
 import homesch from "../images/homeschooling_3213255.png"
 import schoolkids from "../images/1474481_Education_People_1280x720.mp4"
-import learningdisabilities from "../images/learning_disabilities.png"
+import learningdisabilities from "../images/boy_2369032.png"
 import socialsupport from "../images/social_support.png"
 import mentalhealth from "../images/mental_health.png"
 import carepathway from "../images/31488.jpg"
@@ -110,7 +110,7 @@ function Education() {
     <div className="flex lg:pr-96 pl-2 sm:pr-16 pt-4">
       <img src={homesch} alt="learning disabilities icon" className="md:w-24 w-16 md:h-24 h-16 text-bluetheme"></img>
       <p className='md:pl-4 pl-2'>
-        <span className='pb-8 font-bold text-xl'>ASDN</span> <br/>
+        <span className='pb-8 font-bold text-xl'>ASDAN</span> <br/>
        This is all provided by in-house learning qualified education support work, qualified leaders and external tutors.
       </p>
 </div><br/>
@@ -119,7 +119,7 @@ function Education() {
       <img src={learningdisabilities} alt="learning disabilities icon" className="md:w-24 w-16 md:h-24 h-16 text-bluetheme"></img>
       <p className='md:pl-4 pl-2'>
         <span className='pb-8 font-bold text-xl'>Learning Disabilities</span> <br/>
-        We support young people and young people with conditions such as Autism Spectrum Disorder, 
+        We support young people with conditions such as Autism Spectrum Disorder, 
         Asperger Syndrome and other neurodevelopmental conditions, learning and communication difficulties.
       </p>
 </div><br/>
