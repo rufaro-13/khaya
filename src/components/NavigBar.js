@@ -79,7 +79,7 @@ export default function NavigBar() {
                   to="vacances"
                   className=" px-5 py-3  hover:bg-navcolour hover:text-goldenyellow"
                 >
-                  Vacances
+                  Vacancies
                 </Link>
                   
                 </div>

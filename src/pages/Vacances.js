@@ -31,11 +31,11 @@ function Vacances() {
             Khaya offers regular training and support to all of its staff and will work closely with individuals to improve their professional career portfolios. <br/><br/>
             Our job descriptions are all written with the following four key points about Khaya in mind:<br/><br/>
             <span className=" font-bold">1. Our Vision</span><br/>
-            For all people with a learning disability to live a life that makes sense to them.<br/><br/>
+            Our vision is to empower children to build confidence, resilience, and positive relationships, equipping them with the skills they need to succeed in life. We aim to provide a warm and welcoming home where children feel loved, valued, and supported every step of the way.<br/><br/>
 
             <span className=" font-bold">2. Our Mission</span><br/>
-            We will support a sense of wellbeing through a celebration of each person’s unique gifts, talents and contributions, the quality of our relationships and ensuring the
-             promotion of real opportunities to connect with others.<br/><br/>
+            We are dedicated to providing a nurturing and family-oriented environment for children in need of care and support. Our mission is to create a safe and loving 
+            home where children can thrive emotionally, socially, and academically.<br/><br/>
 
              <span className=" font-bold">3. Our purpose</span><br/>
              To achieve excellence in everything we do.
@@ -71,7 +71,7 @@ If you can't find what you're looking for at this time but would like to send in
             <VacancesSection/>
             <div className='text-center py-4'>
             <p  className="relative font-semibold inline-block pb-3">
-              Please download an <a href={applform} className="text-blue-700 hover:underline" download="Application form">application form</a> and send to info@ortuhome.com 
+              Please download an <a href={applform} className="text-blue-700 hover:underline" download="Application form">application form</a> and send to info@khayahome.com 
             </p></div>
            </div> 
 
