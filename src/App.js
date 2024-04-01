@@ -9,7 +9,7 @@ import Team from "./pages/Team"
 import Vacances from "./pages/Vacances"
 import ScrollToTop from './pages/ScrollToTop';
 import ResidentialProvision from './pages/ResidentialProvision';
-/* import Policies from "./pages/Policies"; */
+import Policies from "./pages/Policies"; 
 import TermsAndConditions from "./pages/TermsAndConditions";
 /* import KS3Info from './pages/KS3Info';
 import KS4Info from './pages/KS4Info';
@@ -29,7 +29,7 @@ function App() {
         <Route forceRefresh={true} path='/vacances' element= {<Vacances/>}></Route>
         <Route forceRefresh={true} path="/learning_provision" element={<Education/>}/>
         <Route forceRefresh={true} path='/residential_provision' element= {<ResidentialProvision/>}></Route>
-       {/*  <Route forceRefresh={true} path='/policies' element= {<Policies/>}></Route> */}
+        <Route forceRefresh={true} path='/policies' element= {<Policies/>}></Route>
         {/* <Route forceRefresh={true} path='/ks3' element= {<KS3Info/>}></Route>
         <Route forceRefresh={true} path='/ks4' element= {<KS4Info/>}></Route>
         <Route forceRefresh={true} path='/ksCareer' element= {<KSCareers/>}></Route> */}

@@ -1,12 +1,17 @@
 import React, { useRef} from 'react';
 import emailjs from '@emailjs/browser';
-
+import SEO from '../components/SEO';
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText, FaMobileScreenButton,  } from 'react-icons/fa6';
 
 function Contacts() {
 
+    <SEO
+        title="Contact"
+        description='get in touch with us '
+        name='Khaya Home Limited'
+        type='website' />
    /*  const [formState,setFormState] =useState({});
    
     const config={

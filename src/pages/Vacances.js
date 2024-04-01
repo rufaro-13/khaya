@@ -1,8 +1,8 @@
 import React from 'react'
 //import { useState } from 'react';
 import VacancesSection from '../components/VacancesSection';
-import applform from '../vacancies/Application Form (2).docx'
-
+import applform from '../vacancies/Application form 1.docx'
+import SEO from '../components/SEO'
 function Vacances() {
 
 /*     const [activeIndex, setActiveIndex] = useState(null);
@@ -17,6 +17,11 @@ function Vacances() {
   return (
     <div className="md:container md:mr-16 md:ml-16 pt-2">
 
+<SEO
+        title="Vacancies"
+        description='Check our job opportunities '
+        name='Khaya Home Limited'
+        type='website' />
         <div className="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
             <span className="text-black md:text-3xl text-2xl font-bold">Find your perfect job with one of our vacancies</span>
             

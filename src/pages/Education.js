@@ -10,11 +10,16 @@ import carepathway from "../images/31488.jpg"
 import IndependenceSkillsRoutes from '../components/IndependenceSkillsRoutes'
 /* import InitialAssessment from '../components/InitialAssessment' */
 /* import KS2toKS4 from '../components/KS2toKS4' */
-
+import SEO from '../components/SEO'
 function Education() {
   
   return (
     <div>
+      <SEO
+        title="Learning Provisions"
+        description='Learning provisions at Khaya Home '
+        name='Khaya Home Limited'
+        type='website' />
     <div className="md:container md:mr-16 md:ml-16 pt-2">
       <div className="sm:flex sm:items-center sm:justify-center mx-12 mt-0">
         <div>

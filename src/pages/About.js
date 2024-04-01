@@ -3,13 +3,20 @@ import React from 'react'
 /* import friends from "../images/multi-ethnic-disabled-people-community-with-pencils.jpg"; */
 import team from "../images/team_4540467.png"
 import { Link } from "react-router-dom";
+/* import { Helmet } from 'react-helmet-async'; */
 import { IconContext } from "react-icons";
 import { FaFilePdf } from 'react-icons/fa6';
-import file from '../policies/Statement of purpose.pdf'
-
+import file from '../policies/Statement of Purpose - Khaya.pdf'
+import SEO  from "../components/SEO"
 function About() {
   return (
     <div className="md:container md:mr-16 md:ml-16 pt-2">
+
+        <SEO
+        title="About us"
+        description='About our care home '
+        name='Khaya Home Limited'
+        type='website' />
         <div className="sm:flex sm:items-center sm:justify-center mx-6 mt-0">
         <marquee className="font-cursive text-3xl font-semibold pt-8 text-olive"> <p className="text-2xl">{/* <span className="text-3xl text-pinktheme ">Khaya </span> */}
             Unconditional love, safety,good health and education is our foundation.</p></marquee>

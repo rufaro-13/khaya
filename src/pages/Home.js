@@ -3,10 +3,15 @@ import React from 'react'
 import Hero from "../components/Hero";
 import { Link } from 'react-router-dom';
 import residentialprov from "../images/friends-having-fun-together.jpg"
-
+import SEO from '../components/SEO';
 function Home() {
   return (
     <div className="p-0">
+      <SEO
+        title="Home "
+        description='Welcome to Khaya Home '
+        name='Khaya Home Limited'
+        type='website' />
         <Hero/>
       
 {/*         <div className="flex items-center justify-center p-12">
