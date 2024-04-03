@@ -2,7 +2,7 @@
 
 import { Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-/* import logo from '../images/ortu_png.png' */
+ import logo from '../images/KhayaHomeLimitedSquare_png.png' 
 export default function NavigBar() {
   return (
     <Navbar
@@ -14,7 +14,7 @@ export default function NavigBar() {
        <img
           alt="Flowbite React Logo"
           className="mr-3 h-8 md:h-16 sm:h-9 "
-          /* src={logo} */
+           src={logo} 
         /> 
         <span className="self-center whitespace-nowrap text-goldenyellow text-xl font-semibold dark:text-white">
         Khaya Home Ltd
