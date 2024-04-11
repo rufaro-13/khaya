@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 /* import { Helmet } from 'react-helmet-async'; */
 import { IconContext } from "react-icons";
 import { FaFilePdf } from 'react-icons/fa6';
-import file from '../policies/Statement of Purpose - Khaya.pdf'
+import file from '../policies/Statement of Purpose - Khaya.doc'
 import SEO  from "../components/SEO"
 function About() {
   return (
