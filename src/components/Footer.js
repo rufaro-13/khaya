@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-/* import logo from '../images/ortu_png.png'; */
+ import logo from '../images/KhayaHomeLimitedSquare_png.png'; 
 /* import social from '../images/social-care-network-logo.png.webp';
 import careskills from '../images/careskills-academy-logo.png.webp';
 import elsa from '../images/elsa-logo.png.webp';
@@ -16,7 +16,7 @@ function Footer() {
        <div className="grid grid-cols-3 gap-3 sm:gap-2 sm:grid-cols-3">
           <div className="mb-6 md:mb-0">
               <Link to="/" className="flex items-center">
-                  <img s/* rc={logo} */ className="h-8 " alt="FlowBite Logo" />
+                  <img src={logo}  className="h-32 " alt="FlowBite Logo" />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap text-navcolour dark:text-white">Khaya Home</span>
               </Link>
           </div>
@@ -48,7 +48,7 @@ function Footer() {
                       <Link to="/about" className="hover:underline">About us</Link>
                       </li>
                       <li className="mb-1">
-                      <Link to="/team" className="hover:underline">Our team</Link>
+                      <Link to="/our_team" className="hover:underline">Our team</Link>
                       </li>
                       <li className="mb-1">
                       <Link to="/policies" className="hover:underline">Policies</Link>
@@ -85,12 +85,12 @@ function Footer() {
           </span>
 
           <span className="text-sm px-5 text-goldenyellow sm:text-center dark:text-gray-400"> 
-          <a href="/"target="blank" className="hover:underline">Designed by Dr Aida Lockton</a>.
+          <a href="aida@khayahome.com"target="blank" className="hover:underline">Designed by Dr Aida Lockton </a> <a href="netho@khayahome.com"target="blank" className="hover:underline">& Mr Netho Fuzane</a>
           </span>
 
-          <span className="text-sm px-5 text-goldenyellow sm:text-center dark:text-gray-400"> 
-          <a href="mailto:rufarochiuta@gmail.com"target="blank" className="hover:underline">Developed by Rufaro Chiuta</a>.
-          </span>
+          {/* <span className="text-sm px-5 text-goldenyellow sm:text-center dark:text-gray-400"> 
+          <a href="mailto:"target="blank" className="hover:underline">Developed by Rufaro Chiuta</a>.
+          </span> */}
 
           {/* <div className="flex  mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a href="https://www.facebook.com/profile.php?id=61552407106811"target="blank" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">

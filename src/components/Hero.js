@@ -3,6 +3,7 @@
 import residential from "../images/home.gif"
 import care from "../images/care.gif"
 import education from "../images/books.gif"
+import love from "../images/love.gif"
 const Hero = () => {
   return (
     
@@ -40,6 +41,13 @@ const Hero = () => {
                 </div>
             </a>
            
+            <a href="#" className="flex flex-col items-center  border border-goldenyellow  rounded-lg shadow lg:flex-row md:max-w-xl hover:bg-gray-500 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img className="object-cover sm:w-20 opacity-50  rounded-lg h-16 md:h-28 md:w-40 " src={love} alt="education"/>
+                <div className="flex flex-col justify-between px-2 leading-normal">
+                    <h5 className=" text-lg md:text-xl font-bold tracking-tight text-lime-400  dark:text-white">Supporting behaviour that challenges</h5>
+                    <p className="mb-1 font-normal text-goldenyellow  dark:text-gray-400">Behaviour is understood as a form of communication to support.</p>
+                </div>
+            </a>
         </div>
 
         

@@ -1,7 +1,7 @@
 import React from 'react'
 //import { useState } from 'react';
 import VacancesSection from '../components/VacancesSection';
-import applform from '../vacancies/Application form 1.docx'
+import applform from '../vacancies/Application form.docx'
 import SEO from '../components/SEO'
 function Vacances() {
 
@@ -15,7 +15,7 @@ function Vacances() {
     }
   }; */
   return (
-    <div className="md:container md:mr-16 md:ml-16 pt-2">
+    <div className="md:container md:mr-5 md:ml-5 pt-2">
 
 <SEO
         title="Vacancies"
@@ -44,7 +44,7 @@ function Vacances() {
 
              <span className=" font-bold">3. Our purpose</span><br/>
              To achieve excellence in everything we do.
-              Ortu’s “primary purpose” is to make a positive contribution to the lives of children and adults with disabilities. We make this contribution by ensuring that all our interactions are great, that our knowledge and skills represent excellence and that we support people to develop purposeful and warm relationships. Our “secondary purpose” is to have a positive influence in our local communities and on our sector by connecting well, nurturing partnerships and demonstrating best practice.<br/><br/>
+              Khaya’s “primary purpose” is to make a positive contribution to the lives of children and adults with disabilities. We make this contribution by ensuring that all our interactions are great, that our knowledge and skills represent excellence and that we support people to develop purposeful and warm relationships. Our “secondary purpose” is to have a positive influence in our local communities and on our sector by connecting well, nurturing partnerships and demonstrating best practice.<br/><br/>
 
               <span className=" font-bold">4. Our DNA</span><br/>
               Khaya has a particular way of working with people and because it is so important to all our activities we call it our ethos. It is a combination of our values and the way that we put those values into actions that is unique to Khaya. Through our Promises and Value Base, the promotion of Great Interactions and Person Centred Approaches, we aim to support every person to live a life that makes sense to them, with a level and style of support of their choosing.
@@ -56,12 +56,12 @@ function Vacances() {
 
             <div className="text-center font-semibold py-4 text-3xl">
                   <p className="relative inline-block pb-3">
-                  Vacances
+                  Vacancies
                       <span className="absolute bottom-0 left-0 w-[50%] h-1 bg-bluetheme"></span>
                   </p>
               </div>
             <p className="text-1xl">
-            Please find below a search tool for finding current job vacancies we're recruiting for. 
+            Please find below a search tool for finding current job vacancies we are recruiting for. 
 Please be aware that due to the nature of our work, for some services we cannot publish the exact physical location on our careers site. 
 These will be given a broader area location on the advert and will be displayed on the map at the centre of your search area with any regional roles that might be returning in your search as ''Regional and/or Non-Disclosable Location Vacancies'
 

@@ -144,6 +144,7 @@ function Team() {
                         <li>Residential Support Worker</li>
                         <li>ELSA</li>
                         <li>Well-being Practitioner</li>
+                        <li>Behaviour support practitioner</li>
                     </ul>
                 </p>
 
@@ -153,11 +154,12 @@ function Team() {
                     
                     
                     <li>Lego Therapist</li>
-                    <li> SEND & SEMH Assessor</li>
+                    <li>SEND & SEMH Assessor</li>
                     <li>Career's Advisor & Guidance Officer</li>
                     <li>Regional Home Manager</li>
                     <li>Home Manager</li>
                     <li>Responsible Individual</li>
+                    <li>Health and safety experts</li>
                     </ul>
                 </p>
             </div>

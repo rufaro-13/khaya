@@ -60,7 +60,7 @@ function Education() {
       <img src={road} alt="route icon" className="w-24 h-24"></img>
       <p className='text-base'>
         <span className='pb-8  font-semibold text-lg'>ROUTE 1 for Independent skills</span> <br/>
-        Aimed at students and young people with narrow interests and experiences. Click here to find out what we offer.
+        Aimed at students and young people with narrow interests and experiences.
       </p>
 </div><br/>
 
