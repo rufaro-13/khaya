@@ -12,9 +12,8 @@ export default function NavigBar() {
     >
       <Navbar.Brand href="/">
        <img
-          alt="Flowbite React Logo"
           className="mr-3 h-8 md:h-16 sm:h-9 "
-           src={logo} 
+           src={logo} alt="Khaya Home Ltd Logo"
         /> 
         <span className="self-center whitespace-nowrap text-goldenyellow text-xl font-semibold dark:text-white">
         Khaya Home Ltd
